@@ -45,7 +45,10 @@
  .logo {
      cursor: pointer;
      margin-right: auto;
-     height: 70px;
+ }
+ 
+ .logo > img{
+    height: 70px;
  }
  
  .menu {
