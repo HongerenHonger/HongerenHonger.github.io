@@ -46,7 +46,7 @@
      cursor: pointer;
      margin-right: auto;
  }
- 
+
  .logo > img{
     height: 70px;
  }
@@ -186,14 +186,16 @@
     margin: 20px;
   }
 
-/*conctactFormelier.css*/
+/*conctact.css*/
 
 .bodcont{
     background-image: url(images/mercure-discover-local-nl-bc45.jpg);
     background-size: cover;
-    color: white;
-    height: 800px;
-    font-family: "Raleway", sans-serif;;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Raleway", sans-serif;
+    background-repeat: no-repeat;
+
 }
 
 .inp{
@@ -243,6 +245,9 @@
     text-align: center;  
     padding-top: 15px;
     padding-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
 }
 
 
@@ -255,6 +260,8 @@
     text-align: center;  
     padding-top: 15px;
     padding-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }   
 
 .secp3{
@@ -265,6 +272,8 @@
     text-align: center;  
     padding-top: 15px;
     padding-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .secp4{
@@ -276,6 +285,8 @@
     text-align: center;  
     padding-top: 15px;
     padding-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
