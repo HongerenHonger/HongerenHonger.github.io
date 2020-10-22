@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster+Two&family=Raleway&display=swap");
+
+* { 
+    box-sizing: border-box;  
+     padding: 0;
+     margin: 0;}
+ 
+ .liin{
+     font-family: sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     color: #ffffff; 
+     text-decoration: none;
+ }
+ .ain{
+    font-family: sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     color: #FDFfff; 
+     text-decoration: none;
+ }
+
+ .htmlin {
+    height: 100;
+    scroll-behavior: smooth;
+ }
+ 
+ .sbg { 
+     width: 100%;
+     background-image: url(images/IMG_amazing.jpg) ;
+     background-position: center;
+     background-size: cover; 
+ }
+ 
+ .nav { 
+     width: 100%;
+     padding: 15px 10%;
+ 
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     background-color: rgba(26, 26, 26, 0.8);
+ }
+ 
+ .logo {
+     cursor: pointer;
+     margin-right: auto;
+     height: 70px;
+ }
+ 
+ .menu {
+     list-style: none;
+ }
+ 
+ .menu > li {
+     display: inline-block;
+     padding: 0px 15px;
+ }
+
+ .liin:hover{
+     background-color: rgba(20,20,20, 0.8);
+ }
+ 
+ .divin{
+    background-color: rgba(255,255,255, 0.9);
+    
+}
+
+.divin > h2{
+    font-family: "Lobster Two", cursive;
+    font-size: 50px;
+    color: lightsalmon;
+}
+
+.divin > h3{
+    font-family: "Lobster Two", cursive;
+    font-size: 30px;
+    padding-bottom: 6px;
+    color: lightblue
+}
+
+.divin > p{
+    font-family: "Raleway", sans-serif;;
+    font-size: 18px;
+}
+.secin{
+    width: 100%;
+    margin-top: 600px;
+    display:grid;
+    grid-template-columns: 22% 78%;
+}
+
+.imgdiv {
+    border-radius: 40px;
+    width: 300px;
+    height: auto;
+    text-align: center; 
+    margin-left: 10px;
+}
+
+.divimg{
+    background-color:rgba(255,255,255, 0.9);
+    padding-top: 30px;
+    padding-bottom: 60px;
+   
+}
+
+.omg1{
+    width: 100%;
+   
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    text-align: center;
+    
+}
+
+.imgvr{
+    height: 500px;
+  width: 500px;
+  object-fit: cover;
+  padding: 5px;
+  padding-top: 10px;
+    border-radius: 40px;
+    margin-top: 50px;
+   
+}
+
+.imgnu{
+    height: 500px;
+  width: 500px;
+  object-fit: cover;
+    border-radius: 40px;
+    padding: 5px;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+.imgmid{
+    height: 500px;
+  width: 500px;
+  object-fit: cover;
+    border-radius: 40px;
+    padding: 5px;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+.imgmid > h2{
+    margin-top: 50px;
+}
+
+.imgst{
+    background-color: rgba(214, 211, 211, 0.9);
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    color: rgb(245, 126, 79);
+}
+
+
+
+.footer {
+    background-color: #5d737e;
+    text-align: center;
+  }
+  
+  .footer > hr {
+    width: 25%;
+    margin: auto;
+  }
+  
+  .logo_footer {
+    margin-top: 100px;
+    width: 200px;
+  }
+  
+  .menu_footer {
+    list-style: none;
+  }
+  
+  .menu_footer > li {
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 20px;
+  }
+/* autobio css */
+
+.B{
+    width: 100%;
+    height: 300vh;
+    background: url(images/IMG_3858.JPG) no-repeat;
+    background-size: cover;
+}
+
+
+.H{
+    
+background: radial-gradient(circle, rgba(63,94,251,0.8519782913165266) 0%, rgba(53,196,204,1) 100%);
+    opacity: 0.6;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.p{
+    text-align: center;
+    padding: 10px;
+    margin: 450px;
+    margin-top: auto;
+    background-color: rgba(255,255,255,0.65);
+    color: black;
+    font-family: Open Sans Condensed;
+}
+
+.p2{
+    text-decoration: none;
+    list-style: none;
+}
+
+.but{
+    border-radius: 40px;
+    background-color: lightskyblue;
+    padding-left:  20px;
+    padding-right: 20px;
+    font-family: Open Sans Condensed;
+    
+}
+
+.but:hover{
+    background-color: rgb(4, 157, 252);
+     
+}
+
+/*conctactFormelier.css*/
+
+.bodcont{
+    background-image: url(images/mercure-discover-local-nl-bc45.jpg);
+    background-size: cover;
+    color: white;
+    height: 800px;
+    font-family: "Raleway", sans-serif;";
+}
+
+.inp{
+    text-align: center;
+    background-color: rgb(151, 195, 252);
+    color: white;
+    border-radius: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.formc{
+    
+}
+
+
+
+.divc1{
+    margin:100px;
+    color: white;
+    text-align: center;
+    font-size: large;
+    background-color:   rgba(113, 173, 252, 0.8);
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ 
+.h1c{
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+}
+
+.input-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-bottom: 16px;
+}
+
+::placeholder{
+    color:white;
+}
