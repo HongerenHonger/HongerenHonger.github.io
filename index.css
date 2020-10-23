@@ -83,7 +83,7 @@
 }
 
 .divin > p{
-    font-family: "Raleway", sans-serif;;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
 }
 .secin{
@@ -110,11 +110,21 @@
 
 .omg1{
     width: 100%;
-   
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
     text-align: center;
     
+}
+
+
+.timein{
+    background-color: rgba(214, 211, 211, 0.9);
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    color: rgb(245, 126, 79);
+    text-align: center;
+    padding-top: 5px;
+ 
 }
 
 .imgvr{
@@ -124,8 +134,15 @@
   padding: 5px;
   padding-top: 10px;
     border-radius: 40px;
-    margin-top: 50px;
-   
+    margin-top: 20px;
+   padding-bottom: 20px;
+   animation: slidein 3s ;
+   transition: transform .2s; 
+
+}
+
+.imgvr:hover {
+    transform: scale(1.04); 
 }
 
 .imgnu{
@@ -135,7 +152,14 @@
     border-radius: 40px;
     padding: 5px;
     padding-top: 10px;
-    margin-top: 50px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    animation: slidein 3s ;
+    transition: transform .2s; 
+}
+
+.imgnu:hover {
+    transform: scale(1.04); 
 }
 
 .imgmid{
@@ -145,18 +169,36 @@
     border-radius: 40px;
     padding: 5px;
     padding-top: 10px;
-    margin-top: 50px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    animation: slidein 3s ;
+    transition: transform .2s; 
 }
 
+.imgmid:hover {
+    transform: scale(1.04); 
+}
+
+@keyframes slidein {
+    from {
+      transform: translateX(-2000px);
+    }
+  
+    to {
+      transform: translateX(0px);
+    }
+  }
+  
 .imgmid > h2{
     margin-top: 50px;
 }
 
 .imgst{
     background-color: rgba(214, 211, 211, 0.9);
-    font-family: "Dancing Script", cursive;
+    font-family: "Raleway", sans-serif;
     font-size: 30px;
-    color: rgb(245, 126, 79);
+    color: rgb(1, 201, 174);
+    padding-bottom: 10px;
 }
 
 
@@ -200,13 +242,14 @@
 
 .inp{
     text-align: center;
-    background-color: rgb(151, 195, 252);
+    background-color: rgba(0, 110, 255, 0.6);
     color: white;
     border-radius: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
 }
 
 .divc1{
@@ -398,3 +441,30 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+.inp:hover {
+    animation: shake 0.82s;
+  }
+  
+  @keyframes shake {
+
+    0%{
+        transform: translate3d(0, 0, 0);
+    }
+
+    10%, 90% {
+      transform: translate3d(-1px, 1px, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, -1px, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, -2px, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 2px, 0);
+    }
+  }
